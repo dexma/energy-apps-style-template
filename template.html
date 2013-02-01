@@ -1,0 +1,333 @@
+
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DEXCEll Style</title>
+	<link rel="stylesheet" type="text/css" href="css/style_template.css">
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+  <div class="theme">
+        <header class="clearfix">
+            <h1 class="info-tip-left" title="Texto para mostrar en el tooltip incluido en el atributo title de cualquier elemento con la clase info-tip"><!-- --></h1>
+        </header>
+        <br><br>
+        <h1>Style Guide for Market Apps</h1>
+        <br><br>
+        <hr />
+        <h3>Range Datepicker</h3>
+        <div style="height:100px">
+            <div id="date-range-field">
+                <span><!-- --></span>
+            </div>
+            <div id="datepicker-calendar" style="display:none"></div>
+        </div>
+        <hr />
+        <h3>Form alerts</h3>
+            <div class="form-alert error">Mensaje de error</div>
+            <div class="form-alert success">Mensaje correcto</div>
+            <div class="form-alert attention">Mensaje de atención</div>
+            <div class="form-alert information">Mensaje informativo</div>
+        <hr />
+        <h3>System alerts</h3>
+            <div class="form-alert error system">Mensaje de error</div>
+            <div class="form-alert success system">Mensaje correcto</div>
+            <div class="form-alert attention system">Mensaje de atención</div>
+            <div class="form-alert information system">Mensaje informativo</div>
+        <hr />
+    <h3>Buttons</h3>
+    <button class="btn" href="#">Default</button>
+    <button class="btn active" href="#">Active</button>
+    <button class="btn disabled" href="#">Disabled</button>
+    <hr />
+    <h3>Pagination</h3>
+    <div class="pagination">
+        <p><strong>1</strong> / <strong>4</strong> de <strong>16</strong></p>
+        <ul class="nav" data-toggle="buttons-radio" data-tabs="tabs">
+            <li class="disabled"><a class="prev" href="#"></a></li>
+            <li class="active"><a href="#" class="first" data-toggle="tab">1</a></li>
+            <li><a href="#" data-toggle="tab">2</a></li>
+            <li><a href="#" data-toggle="tab">3</a></li>
+            <li><a href="#" class="last" data-toggle="tab">4</a></li>
+            <li><a class="next" href="#"></a></li>
+        </ul>
+    </div><!-- .pagination -->
+    <hr />
+    <h3>Select / Dropdown</h3>
+    <select class="generic-dropdown">
+      <option value="AL">Alabama</option>
+      <option value="AK">Alaska</option>
+      <option value="AZ">Arizona</option>
+      <option value="AR">Arkansas</option>
+      <option value="CA">California</option>
+      <option value="CO">Colorado</option>
+      <option value="CT">Connecticut</option>
+      <option value="DE">Delaware</option>
+      <option value="FL">Florida</option>
+      <option value="GA">Georgia</option>
+      <option value="HI">Hawaii</option>
+      <option value="ID">Idaho</option>
+    </select>
+    <hr />
+    <h3>Select / Dropdown / Search</h3>
+
+        <select id="combobox" class="combo-search">
+            <option value="">Select one...</option>
+            <option value="ActionScript">ActionScript</option>
+            <option value="AppleScript">AppleScript</option>
+            <option value="Asp">Asp</option>
+            <option value="BASIC">BASIC</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="Clojure">Clojure</option>
+            <option value="COBOL">COBOL</option>
+            <option value="ColdFusion">ColdFusion</option>
+            <option value="Erlang">Erlang</option>
+            <option value="Fortran">Fortran</option>
+            <option value="Groovy">Groovy</option>
+            <option value="Haskell">Haskell</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Lisp">Lisp</option>
+            <option value="Perl">Perl</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Scala">Scala</option>
+            <option value="Scheme">Scheme</option>
+        </select>
+
+    <hr />
+    <h3>Dialog</h3>
+    <div id="dialog" title="Basic dialog">
+        <p>Esto es un dialog. Lorem ipsum dolor sit amet.</p>
+    </div>
+    <button class="btn" id="opener">Abrir Dialog</button><!-- .dialog -->
+    <hr />
+    <h3>List / Dropdown</h3>
+    <ul class="nav nav-pills">
+        <li class="dropdown" id="exportar-dispo">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#exportar-dispo">Exportar a <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">CSV</a></li>
+                <li><a href="#">Excel</a></li>
+                <li><a href="#">XML</a></li>
+            </ul>
+        </li>
+        <li class="dropdown" id="seleccionar-grupos">
+            <label class="checkbox"><input type="checkbox" /></label>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#seleccionar-grupos"><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Todo</a></li>
+                <li><a href="#">Deseleccionar</a></li>
+                <li><a href="#">Leidas</a></li>
+                <li><a href="#">No leidas</a></li>
+            </ul>
+        </li>
+    </ul>
+    <hr />
+    <h3>Select multiple / Tags</h3>
+    <select class="generic-multiple" placeholder="Selecciona categorías" multiple>
+        <option value="tag1">Tag categoría 01</option>
+        <option value="tag2">Tag categoría 02</option>
+        <option value="tag3">Tag categoría 03</option>
+        <option value="tag4">Tag categoría 04</option>
+        <option value="tag5">Tag categoría 05</option>
+        <option value="tag6">Tag categoría 06</option>
+        <option value="tag7">Tag categoría 07</option>
+        <option value="tag8">Tag categoría 08</option>
+    </select>
+    <hr />
+    <h3>Select multiple / Color-Tags</h3>
+    <select class="generic-multiple" placeholder="Selecciona categorías" multiple>
+        <option value="tag1-gree">Tag categoría 01</option>
+        <option value="tag2-viol">Tag categoría 02</option>
+        <option value="tag3-blue">Tag categoría 03</option>
+        <option value="tag4-yell">Tag categoría 04</option>
+        <option value="tag5-gree">Tag categoría 05</option>
+        <option value="tag6-viol">Tag categoría 06</option>
+        <option value="tag7-blue">Tag categoría 07</option>
+        <option value="tag8-yell">Tag categoría 08</option>
+    </select>
+    <hr />
+    <h3>Switch</h3>
+    <div class="onoffswitch">
+      <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" />
+      <label class="onoffswitch-label" for="myonoffswitch">
+        <div class="onoffswitch-inner">
+          <div class="onoffswitch-active">Activado</div>
+          <div class="onoffswitch-inactive">Desactivado</div>
+        </div>
+        <div class="onoffswitch-switch">||||</div>
+      </label>
+    </div><!-- .onoffswitch -->
+    <hr />
+    <h3>Checkboxes</h3>
+    <p class="checkbox">
+      <input type="checkbox" name="" value="" />
+      <label>Enviar un aviso por e-mail</label>
+    </p>
+    <hr />
+    <h3>Radio buttons</h3>
+    <div class="controls valtype" data-valtype="radio">
+        <input type="radio" value="Option one" name="general" checked="checked" />
+        <label class="radio inline">Dispositivo</label>
+        <input type="radio" value="Option two" name="general" />
+        <label class="radio inline">Grupo</label>
+    </div>
+    <hr />
+    <h3>Button group</h3>
+    <div class="btn-group" data-toggle="buttons-radio">
+        <button class="btn">opción 1</button>
+        <button class="btn">opción 2</i></button>
+        <button class="btn">opción 3</button>
+    </div>
+    <hr />
+    <h3>Tabs</h3>
+    <ul class="nav nav-tabs" data-tabs="tabs">
+        <li class="active"><a href="#alert-sublevel-1" data-toggle="tab">Alertas de umbral (5)</a></li>
+        <li><a href="#alert-sublevel-2" data-toggle="tab">Alertas de ausencia de datos (2)</a></li>
+    </ul>
+    <hr />
+    <h3>Form with labels</h3>
+    <div class="form-container">
+        <form class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label" for="input01">Nombre Alerta</label>
+                <div class="controls">
+                    <input class="input-xxlarge" type="text" />
+                </div>
+            </div>
+            <div class="control-group error">
+                <label class="control-label" for="inputError">Input with error</label>
+                <div class="controls">
+                    <input type="text" id="inputError" class="">
+                    <span class="form_error" data-placement="right" title="Por favor revise los datos introducidos">El campo es incorrecto</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="textarea">Condición</label>
+                <div class="controls">
+                    <select class="generic-dropdown input-xlarge">
+                        <option value="Active">Active energy</option>
+                        <option value="Not Active">No active energy</option>
+                    </select>
+                    <select class="generic-dropdown input-mini">
+                        <option value=">">opt01</option>
+                        <option value="<">opt02</option>
+                    </select>
+                    <input class="input-mmini" type="text" />
+                    <span class="inside-forms">kWh</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls separador-1">
+                    <span class="inside-forms">Durante</span>
+                    <select class="generic-dropdown">
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                    <span class="inside-forms">medición/es consecutiva/s</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="textarea">Aplica a</label>
+                <div class="controls separador-2">
+                    <select class="generic-multiple" placeholder="Selecciona categorías" multiple>
+                        <option value="tag1">Tag categoría 01</option>
+                        <option value="tag2">Tag categoría 02</option>
+                        <option value="tag3">Tag categoría 03</option>
+                        <option value="tag4">Tag categoría 04</option>
+                        <option value="tag5">Tag categoría 05</option>
+                        <option value="tag6">Tag categoría 06</option>
+                        <option value="tag7">Tag categoría 07</option>
+                        <option value="tag8">Tag categoría 08</option>
+                    </select>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="textarea">Dias</label>
+                <div class="controls separador-3">
+                    <span class="inside-forms">Desde</span>
+                    <select class="generic-dropdown input-large">
+                        <option value="Martes">Martes</option>
+                    </select>
+                    <span class="inside-forms">hasta</span>
+                    <select class="generic-dropdown input-large">
+                        <option value="Viernes">Viernes</option>
+                    </select>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="textarea">Avisos</label>
+                <div class="controls separador-4">
+                    <span class="inside-forms">Avisame máximo 1 vez cada</span>
+                    <select class="generic-dropdown input-large">
+                        <option value="evento">Evento</option>
+                    </select>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <p class="checkbox">
+                        <input type="checkbox" name="" value="" />
+                        <label>Enviar un aviso por e-mail</label>
+                    </p>
+                    <p class="checkbox">
+                        <input type="checkbox" name="" value="" />
+                        <label>Enviar un aviso por SMS</label>
+                    </p>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Generar</label>
+                <div class="controls">
+                    <p>
+                        <input type="radio" name="group" checked="checked" />
+                        <label class="radio inline">De ahora en adelante</label>
+                    </p>
+                    <p style="clear:both">
+                        <input type="radio" name="group"  />
+                        <label class="radio inline">Desde el día</label>
+                        <input class="single-datepicker" type="text" />
+                    </p>
+                </div><!-- .controls -->
+            </div>  <!-- .control-group -->
+            <hr />
+            <button class="btn btn-form">Aceptar</button>
+            <button class="btn btn-form">Cancelar</button>
+        </form>
+    </div><!-- .form-container -->
+    </div>
+  </div><!-- .wrapper -->
+
+    <script src="js/libs/jquery-1.7.2.min.js"></script>
+    <script src="js/libs/jquery-ui.min.js"></script>
+
+    <script src="js/jquery.ui.core.min.js"></script>
+    <script src="js/jquery.ui.widget.min.js"></script>
+    <script src="js/jquery.ui.datepicker.js"></script>
+    <script src="js/jquery.ui.position.min.js"></script>
+    <script src="js/jquery.ui.dialog.min.js"></script>    
+
+    <script src="js/select2.min.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/mwheelIntent.js"></script>
+    <script src="js/jquery.jscrollpane.min.js"></script>
+    <script src="js/bootstrap-timepicker.js"></script>
+    <script src="js/jquery.datepick.js"></script>
+    <script src="js/jquery.dropdownPlain.js"></script>
+    <script src="js/jquery.tipTip.js"></script>
+    <script src="js/date-es-ES.js"></script>
+    <script src="js/jquery.datepicker.js"></script>
+    <script src="js/jquery.multiselect2side.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/jquery.qtip.min.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/daterangepicker.jQuery.js"></script>
+    <script src="js/ui.spinner.min.js"></script>
+    <script src="js/jquery-css-transform.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
